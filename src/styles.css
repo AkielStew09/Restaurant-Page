@@ -1,4 +1,126 @@
-* {
+*, *::before, *::after{
     font-family: "Cabin", sans-serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    
+
 }
+body{
+    background-color:rgb(23, 23, 23);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    padding: 1.1rem 1rem;
+}
+.nav-left>img{
+    height: 2.8rem;
+    margin-left: 2rem;
+}
+ul{
+    
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    gap: 1.6rem;
+}
+.tabButton{
+    font-size: 1.3rem;
+    color: rgb(202, 108, 108);
+    border: none;
+    background-color: transparent;
+}
+.hero{
+    border-top: 3px solid brown;
+    min-height: 40rem;
+    background: url("./img/dark_restaurant.jpg");
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+/* code to put a gradient on the hero image */
+/* .hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(323deg,rgba(160, 163, 57, 1) 17%, rgba(43, 43, 40, 1) 100%, rgba(250, 250, 250, 1) 75%);
+    z-index: 1;
+    opacity: 0.4;
+
+} */
+.hero-content{
+    /* border: 1px solid green; */
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 22%;
+    z-index: 2;
+}
+.hero-text{
+     h3{
+        font-size: 5rem;
+    }
+    p{
+        margin-top: 2.4rem;
+        font-size: 1.4rem;
+        color:rgb(230, 230, 231)
+    }
+
+    
+
+    /* border: 1px solid yellow; */
+    flex: 2;
+}
+.hero-pic{
+    /* border: 1px solid yellow; */
+    height: 16rem;
+    background: url("./img/chickenBowl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.qualities-container{
+    color: white;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    padding: 2rem 5rem;
+    background: linear-gradient(rgb(7, 7, 7) 0%, rgb(52, 25, 25) 20%);
+    min-height: 20rem;
+}
+.qualities{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.qBox{
+    p{
+        text-align: justify;
+        font-size: 1rem;
+        margin-top: 1.1rem;
+    }
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(77, 43, 43);
+    /* min-height: 3rem;
+    min-width: 8rem; */
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+
+
+
