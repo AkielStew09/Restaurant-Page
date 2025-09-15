@@ -16,26 +16,36 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(23, 23, 23);
-    padding: 1.1rem 1rem;
+    padding: 0 1rem;
 }
 .nav-left>img{
-    height: 2.8rem;
-    margin-left: 2rem;
+    height: 3.8rem; 
+    margin-left: 4rem; 
 }
-ul{
-    
+nav>ul{
     list-style: none;
     display: grid;
     grid-auto-flow: column;
     justify-content: space-evenly;
-    gap: 1.6rem;
 }
+
 .tabButton{
-    font-size: 1.3rem;
+    padding: 2rem 0.8rem;
+    font-size: 1.4rem;
     color: rgb(202, 108, 108);
     border: none;
     background-color: transparent;
 }
+.homeButton{
+    text-decoration-line: underline;
+}
+
+.tabButton:hover{
+    background-color: rgb(244, 185, 77);
+    color: rgb(23, 23, 23);
+    
+}
+
 .hero{
     border-top: 3px solid brown;
     min-height: 40rem;
