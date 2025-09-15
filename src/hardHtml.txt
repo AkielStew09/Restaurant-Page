@@ -1,0 +1,34 @@
+<div class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h3>AK's Hot Spot</h3>
+            <p>
+                With the most excellent taste and the most
+                immaculate vibes, nowhere beats the one and only hot
+                spot! Come experience our outstanding customer service, unforgettable live music and premium quality seating. Once you 
+                step in you'll never want to leave!
+            </p>
+        </div>
+        <div class="hero-pic"></div>
+    </div>
+</div>
+<div class="qualities-container">
+    <div class="qualities">
+        <div class="qBox">
+            <h4>Outstanding Service</h4>
+            <p>We have top level waitors who can fulfill your order with excellent patience and capability. Friendliness and understanding are part of our identity!</p>
+        </div>
+        <div class="qBox">
+            <h4>Comfortable Environment</h4>
+            <p>When you feast with us, you can rest assured that your surroundings will be more than up to par. Our cleanliness and arrangement surpass many high end restaurants, sure to make you as cozy and at home as possible.</p>
+        </div>
+        <div class="qBox">
+            <h4>Lorem, ipsum dolorororo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fuga error assumenda repellat? Ipsam cupiditate, pariatur aut autem praesentium consequatur tenetur dolor non sint ipsum nisi.</p>
+        </div>
+        <div class="qBox">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis et sapiente repellendus unde provident at, aliquid quidem laborum, odit doloribus quis impedit voluptates quo magni praesentium nesciunt quibusdam.</p>
+        </div>
+    </div>
+</div>
