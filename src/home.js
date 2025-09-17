@@ -43,20 +43,48 @@ export const renderHome = ()=>{
     qualities.classList.add("qualities");
     qualitiesContainer.appendChild(qualities);
 
-    //first qBox to qualities
-    let qBox = document.createElement("div");
-    qBox.classList.add("qBox");
-    qualities.appendChild(qBox);
+    let qBoxes = [
+        {
+            title: "Outstanding Service",
+            par: "We have top level waitors who can fulfill your order with excellent patience and capability. Friendliness and understanding are part of our identity!"
+        },
+        {
+            title: "Comfortable Environment",
+            par: "When you feast with us, you can rest assured that your surroundings will be more than up to par. Our home-like design and thought out arrangement surpass many high end restaurants, and are sure to make you feel as cozy and at home as possible."
+        },
+        {
+            title: "Top-Level Food Prep.",
+            par: "Our cooks are amazingly gifted, and they put their all into every meal they prepare for you. Our attention to detail in orders, our skills in the kitchen honed throughout the years, and our willingness to go the extra mile leave our visitors in awe every time."
+        },
+        {
+            title: "Hygiene That's Stunning and Reliable",
+            par: "Here at the Hot Spot, we clean so frequently and thoroughly that we never face related problems or complaints. You can trust in us to keep your surroundings up to par, and to maintain an ambience that pleases all senses."
+        }
+    ]
 
-    //h4 to qBox
-    let qualTitle = document.createElement("h4");
-    qualTitle.textContent = "Outstanding Service";
-    qBox.appendChild(qualTitle);
+    //declare element vars to be defined and appended in the forEach loop
 
-    //p to qBox
-    let qualParagraph = document.createElement("p");
-    qualParagraph.textContent = "We have top level waitors who can fulfill your order with excellent patience and capability. Friendliness and understanding are part of our identity!";
-    qBox.appendChild(qualParagraph);
+    let qBox, qualTitle, qualParagraph;
+
+    qBoxes.forEach((box)=>{
+        //qBox to qualities
+        qBox = document.createElement("div");
+        qBox.classList.add("qBox");
+        qualities.appendChild(qBox);
+
+        //qualTitle to qBox
+        qualTitle = document.createElement("h4");
+        qualTitle.textContent = box.title;
+        qBox.appendChild(qualTitle);
+
+        //qualParagraph to qBox
+        qualParagraph = document.createElement("p");
+        qualParagraph.textContent = box.par;
+        qBox.appendChild(qualParagraph);
+
+    });
+
+
 
 
 

@@ -20,15 +20,15 @@
         </div>
         <div class="qBox">
             <h4>Comfortable Environment</h4>
-            <p>When you feast with us, you can rest assured that your surroundings will be more than up to par. Our cleanliness and arrangement surpass many high end restaurants, sure to make you as cozy and at home as possible.</p>
+            <p>When you feast with us, you can rest assured that your surroundings will be more than up to par. Our home-like design and thought out arrangement surpass many high end restaurants, and are sure to make you feel as cozy and at home as possible.</p>
         </div>
         <div class="qBox">
-            <h4>Lorem, ipsum dolorororo</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fuga error assumenda repellat? Ipsam cupiditate, pariatur aut autem praesentium consequatur tenetur dolor non sint ipsum nisi.</p>
+            <h4>Top-Level Food Prep.</h4>
+            <p>Our cooks are amazingly gifted, and they put their all into every meal they prepare for you. Our attention to detail in orders, our skills in the kitchen honed throughout the years, and our willingness to go the extra mile leave our visitors in awe every time.</p>
         </div>
         <div class="qBox">
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis et sapiente repellendus unde provident at, aliquid quidem laborum, odit doloribus quis impedit voluptates quo magni praesentium nesciunt quibusdam.</p>
+            <h4>Hygiene That's Stunning and Reliable</h4>
+            <p>Here at the Hot Spot, we clean so frequently and thoroughly that we never face related problems or complaints. You can trust in us to keep your surroundings up to par, and to maintain an ambience that pleases all senses.</p>
         </div>
     </div>
 </div>
