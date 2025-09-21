@@ -19,5 +19,5 @@ let contactUsButton = document.querySelector("#contactUsBtn");
 contactUsButton.addEventListener("click", renderContactUs);
 
 
-renderAboutUs();
+renderHome();
 
