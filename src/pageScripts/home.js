@@ -1,6 +1,7 @@
 export const renderHome = ()=>{
-    //content
+    //retrieve and clear the content
     const content = document.querySelector("#content");
+    content.innerHTML = "";
 
     //make, style and append hero to content
     const hero = document.createElement("div");
@@ -57,7 +58,7 @@ export const renderHome = ()=>{
             par: "Our cooks are amazingly gifted, and they put their all into every meal they prepare for you. Our attention to detail in orders, our skills in the kitchen honed throughout the years, and our willingness to go the extra mile leave our visitors in awe every time."
         },
         {
-            title: "Hygiene That's Stunning and Reliable",
+            title: "Reliable Hygiene",
             par: "Here at the Hot Spot, we clean so frequently and thoroughly that we never face related problems or complaints. You can trust in us to keep your surroundings up to par, and to maintain an ambience that pleases all senses."
         }
     ]
