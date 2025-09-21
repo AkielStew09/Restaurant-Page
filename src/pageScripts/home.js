@@ -25,7 +25,7 @@ export const renderHome = ()=>{
 
     //p to hero-text
     const heroParagraph = document.createElement("p");
-    heroParagraph.textContent = "With the most excellent taste and the most immaculate vibes, nowhere beats the one and only hot spot! Come experience our outstanding customer service, unforgettable live music and premium quality seating. Once you step in you'll never want to leave!";
+    heroParagraph.textContent = "With the most excellent taste and the most impeccable ambience, nowhere beats the one and only hot spot! Come experience our outstanding customer service, unforgettable live music and premium quality seating. Once you step in you'll never want to leave!";
     heroText.appendChild(heroParagraph);
 
     //hero-pic to hero-content
