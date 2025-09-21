@@ -84,7 +84,7 @@ nav>ul{
 }
 .hero-text{
      h3{
-        font-size: 5rem;
+        font-size: 7rem;
     }
     p{
         margin-top: 2.4rem;
@@ -185,6 +185,68 @@ nav>ul{
     border-radius: 0.4rem;
 }
 
+
+.contactContainer{
+    color: white;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    padding: 2rem 3rem;
+    background: linear-gradient(rgb(7, 7, 7) 0%, rgb(52, 25, 25) 20%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactBox{
+    p{
+        text-align: justify;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    min-height: 30vh;
+    max-height: 40vh;
+    width: 40rem;
+    background-color: transparent;
+    border: 1.7px solid white;
+    border-radius: 0.4rem;
+}
+
+.aboutUsHero{
+    background: url("./img/dark_restaurant.jpg");
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    padding: 3rem 14rem;
+    font-size: 2rem;
+    
+}
+
+.aboutUsInfo{
+    p{
+        text-align: justify;
+        margin-top: 5rem;
+        font-size: 1.7rem;
+    }
+    h1{
+        color: rgb(228, 117, 117);
+        text-align: center;
+        
+    }
+    border: 1px solid brown;
+    border-radius: 1.4rem;
+    padding: 2rem 6rem;
+    backdrop-filter: blur(12px);
+    background: (white, 0.2);
+
+}
 
 
 
